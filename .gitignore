@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+cpenv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (raw & processed)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.xls
+*.xlsx
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm configs
+.vscode/
+.idea/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment & dependency managers
+Pipfile
+Pipfile.lock
+poetry.lock
+__pypackages__/
+
+# Reports
+reports/figures/
+reports/*.html
+reports/*.pdf
+
