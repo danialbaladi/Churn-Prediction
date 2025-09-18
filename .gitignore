@@ -9,26 +9,29 @@ __pycache__/
 venv/
 ENV/
 cpenv/
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Data files (raw & processed)
-data/raw/
-data/interim/
-data/processed/
-*.csv
-*.tsv
-*.parquet
-*.xls
-*.xlsx
+# خطوط زیر کامنت شدند تا data پوش شود
+# data/raw/
+# data/interim/
+# data/processed/
+# *.csv
+# *.tsv
+# *.parquet
+# *.xls
+# *.xlsx
 
 # Models
-models/
-*.pkl
-*.joblib
-*.h5
-*.pt
-*.onnx
+# خط زیر کامنت شد تا models پوش شود
+# models/
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.onnx
 
 # Logs & temp files
 logs/
